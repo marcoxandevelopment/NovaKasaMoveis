@@ -1,0 +1,176 @@
+@import url(/css/main.css);
+@import url(/css/trabalho.css);
+@import url(/css/funcionamento.css);
+@import url(/css/garantee.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat";
+}
+
+html {
+  font-size: 90%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+nav img {
+  margin-left: 3rem;
+}
+
+nav a {
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.4125rem;
+  font-family: Montserrat;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+nav button {
+  font-size: 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 15px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+.navbar-img {
+  padding: 0.7rem;
+  width: 5.8125rem;
+  height: 5.8125rem;
+  flex-shrink: 0;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+}
+
+.navbar-overlay {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+body.open .navbar-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar-burguer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 65px;
+  height: 65px;
+  padding: 0;
+}
+
+.navbar-title img {
+  margin: 0;
+  padding: 0 0 0 5px;
+  width: 50px;
+}
+
+.navbar-menu {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  translate: -100% 0;
+
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+body.open .navbar-menu {
+  translate: 0 0;
+  visibility: visible;
+}
+
+.navbar-menu > a {
+  background: transparent;
+  padding: 0 12px;
+}
+
+.navbar-menu > a:hover {
+  transition: all 0.4s;
+  z-index: -1;
+
+  background: rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+  transform: (1.425);
+}
+
+/*responsive*/
+
+@media only screen and (min-width: 760px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+  .navbar-overlay {
+    display: none;
+  }
+  .navbar-burger {
+    display: none;
+  }
+  .navbar-menu {
+    position: static;
+    translate: 0 0;
+    width: auto;
+    background: transparent;
+    flex-direction: row;
+    visibility: visible;
+  }
+}
+
+.nav-linktext-muted {
+  cursor: auto;
+}
+
+.section-funcional {
+  margin-top: 4rem;
+}

@@ -1,0 +1,186 @@
+.section-funcional {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  place-items: center;
+  gap: 1rem;
+  padding: 2.2rem 1.2rem;
+}
+
+.container-grid-box {
+  display: grid;
+  height: 100vh;
+  padding: 2.2rem 1.2rem;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  place-items: center;
+}
+
+.container-text-grid h1 {
+  color: #272727;
+  font-size: 3.4rem;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.container-text-grid {
+  margin-top: 3rem;
+}
+
+.container-text-grid p {
+  flex-direction: column;
+
+  max-width: 40rem;
+  width: 100%;
+  flex-shrink: 0;
+  color: #5a5a5a;
+  font-size: 2.2rem;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 128.9%;
+}
+
+.container-grid-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container-button-contact button {
+  cursor: pointer;
+  width: 61.75rem;
+  height: 14.625rem;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #ae1919;
+}
+
+.container-button-contact button {
+  color: #fff;
+  font-size: 4rem;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.container-grid-img {
+  display: grid;
+  place-items: center;
+}
+
+.container-button-contact {
+  position: relative;
+}
+.container-button-contact button {
+  position: relative;
+  bottom: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-grid-box h1 {
+    color: #000;
+    font-size: 2.8rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .container-text-grid p {
+    flex-direction: column;
+    display: flex;
+    max-width: 50rem;
+    width: 100%;
+    flex-shrink: 0;
+    color: #5a5a5a;
+    font-size: 1.9rem;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 128.9%;
+  }
+  .container-button-contact button {
+    width: 40.75rem;
+    height: 14.625rem;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #ae1919;
+  }
+  .container-button-contact button {
+    color: #fff;
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-grid-box {
+    grid-template-columns: 1fr;
+  }
+  .container-grid-box h1 {
+    color: #000;
+    font-size: 2.8rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .container-text-grid p {
+    flex-direction: column;
+    display: flex;
+
+    width: 100%;
+    flex-shrink: 0;
+    color: #5a5a5a;
+    font-size: 1.4rem;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 128.9%;
+  }
+
+  .container-button-contact button {
+    width: 20.75rem;
+    bottom: 30px;
+    height: 8.625rem;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #ae1919;
+  }
+  .container-button-contact button {
+    color: #fff;
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .container-button-contact button {
+    width: 15.75rem;
+    bottom: 40px;
+    height: 8.625rem;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #ae1919;
+  }
+  .container-button-contact > button {
+    color: #fff;
+    font-size: 1.8rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .container-text-grid p {
+    flex-direction: column;
+    display: flex;
+
+    width: 100%;
+    flex-shrink: 0;
+    color: #5a5a5a;
+    font-size: 1.1rem;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 128.9%;
+  }
+  .container-grid-box h1 {
+    color: #000;
+    font-size: 2.12rem;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+}
