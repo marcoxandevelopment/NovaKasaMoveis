@@ -4,7 +4,7 @@ main {
   height: 100vh;
   width: 100%;
   padding: 2.2rem 1.2rem;
-  background: url(/BG\ 1\ -\ MAIN.jpg);
+  background: url(BG.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
