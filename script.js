@@ -2,7 +2,7 @@ ScrollReveal({
   reset: true,
   distance: "200px",
   duration: 1000,
-  delay: 200,
+  delay: 0,
 });
 
 ScrollReveal().reveal(".container-main-content", {
@@ -51,15 +51,40 @@ ScrollReveal().reveal(".img8", {
 
 ScrollReveal().reveal(".how-orks-img", {
   delay: 400,
-  origin: "left",
+  origin: "bottom",
 });
 
 ScrollReveal().reveal(".how-works-text", {
+  delay: 700,
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".how-works-text-p", {
+  delay: 1000,
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".container-text-grid", {
   delay: 800,
-  origin: "left",
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".container-grid-img", {
+  delay: 400,
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".talk-with-us-h1", {
+  delay: 600,
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".talk-width-us-p", {
+  delay: 1000,
+  origin: "bottom",
 });
 
 ScrollReveal().reveal(".ctn-act", {
   delay: 800,
-  origin: "bottom",
+  origin: "rigth",
 });
