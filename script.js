@@ -1,7 +1,7 @@
 ScrollReveal({
   reset: true,
   distance: "200px",
-  duration: 1000,
+  duration: 1200,
   delay: 0,
 });
 
@@ -87,4 +87,24 @@ ScrollReveal().reveal(".talk-width-us-p", {
 ScrollReveal().reveal(".ctn-act", {
   delay: 800,
   origin: "rigth",
+});
+
+ScrollReveal().reveal(".parceiros-h5", {
+  delay: 300,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".parceiro-1", {
+  delay: 500,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".parceiro-2", {
+  delay: 700,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".parceiro-3", {
+  delay: 900,
+  origin: "left",
 });

@@ -6,22 +6,29 @@ section.section-garantee {
 
 .container-garantee-box {
   display: grid;
-
+  margin-top: 2rem;
   justify-content: center;
   align-items: center;
   place-content: center;
   margin-top: 2rem;
   place-items: center;
-  grid-template-columns: repeat(1, 1fr);
 }
 
 .container-garantee-box p {
+  color: #414141;
   font-size: 30px;
 }
 
-@media screen and (max-width: 550px) {
-  .container-garantee-box h3 {
+.container-garantee-box h2 {
+  color: #414141;
+}
+
+@media screen and (max-width: 800px) {
+  .container-garantee-box h2 {
     font-size: 1rem;
+  }
+  .container-garantee-box {
+    margin-top: 10%;
   }
   .container-garantee-box p {
     font-size: 1rem;

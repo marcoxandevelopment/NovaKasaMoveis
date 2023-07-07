@@ -1,4 +1,5 @@
 @import url(main.css);
+@import url(parceiros.css);
 @import url(trabalho.css);
 @import url(funcionamento.css);
 @import url(garantee.css);
@@ -25,10 +26,6 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-nav {
-  background: rgba(0, 0, 0, 0.4);
 }
 
 nav img {
@@ -173,4 +170,29 @@ body.open .navbar-menu {
 
 .section-funcional {
   margin-top: 4rem;
+}
+.moveis-flex-plan {
+  font-weight: 300;
+}
+
+.work-h1 {
+  color: #000000;
+  font-size: 2.1rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.contact-btn-1 {
+  background: linear-gradient(180deg, #bc1c1c 0%, #8f1212 100%);
+  padding: 1rem;
+  font-weight: 700;
+  width: 200px;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
 }

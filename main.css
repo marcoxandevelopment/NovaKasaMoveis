@@ -46,7 +46,7 @@ main {
   font-weight: 300;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 900px) {
   .container-main-content h1 {
     font-size: 6rem;
   }
